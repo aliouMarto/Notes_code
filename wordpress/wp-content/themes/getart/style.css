@@ -1,0 +1,85 @@
+/*
+Theme Name : getart;
+Author: LiouA;
+*/
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body{
+
+}
+
+a{
+	text-decoration: none;
+}
+li{
+	list-style-type: none;
+}
+header{
+   width: 100%;
+}
+
+.logo{
+	display: inline-block;
+	width: 20%;
+}
+.logo img{
+	max-width: 100%;
+	height: auto;
+	margin-left: 44px;
+}
+nav{
+	display: inline-block;
+    width: 80%;
+    vertical-align: top;
+    margin-top: 50px;
+}
+nav li{
+	display: inline-block;
+    width: 24%;
+    background: red;
+    text-align: center;
+    border: 2px solid yellow;
+    padding: 5px;
+}
+nav li a{
+	color: white;
+	font-weight: bold;
+}
+section{
+	width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+article{
+	width: 31%;
+    padding: 20px;
+    margin-top: 10px;
+}
+article a{
+	display: inline-block;
+	text-align: center;
+	background: blue;
+	color: white;
+	padding: 5px;
+	font-size: 1.5em;
+	font-weight: bold;
+	width: 100%;
+}
+article img{
+	width: 92%;
+	height: auto;
+}
+article p{
+    line-height: 1.5;
+}
+
+footer{
+	background: gray;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	padding: 10px;
+}
